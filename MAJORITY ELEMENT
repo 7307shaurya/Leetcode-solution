@@ -5,7 +5,6 @@ unordered_map<int, int> freq;
             if (freq[num]> n/2){
                 return num;
             }
-
         }
         return -1;
     }
