@@ -3,7 +3,7 @@ class Solution {
        
         HashSet<Integer> seenNumbers = new HashSet<>();
         
-       
+    
         for (int num : nums) {
             
             if (!seenNumbers.add(num)) {
